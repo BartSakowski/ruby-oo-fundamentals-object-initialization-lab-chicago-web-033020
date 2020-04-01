@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
   def initialize(breed)
     @breed = breed
@@ -10,5 +12,5 @@ class Dog
   def breed
     @breed
   end
-
+binding.pry
 end
