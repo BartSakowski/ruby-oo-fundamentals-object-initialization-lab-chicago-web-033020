@@ -1,16 +1,11 @@
 require 'pry'
 
 class Dog
-  def initialize(breed)
-    @breed = breed
+  def name=(dog_name)
+    this_dogs_name = dog_name
   end
  
-  def breed=(breed)
-    @breed = breed
+  def name
+    this_dogs_name
   end
- 
-  def breed
-    @breed
-  end
-binding.pry
 end
