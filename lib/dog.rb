@@ -1,11 +1,7 @@
 require 'pry'
 
 class Dog
-  def name=(dog_name)
-    this_dogs_name = dog_name
-  end
- 
-  def name
-    this_dogs_name
+def initialize(name, name1)
+    @name =  name, name1
   end
 end
